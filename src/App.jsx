@@ -550,7 +550,12 @@ function Details({ app, onClose, favorite, onFavorite, onToast, toast }) {
               <h3>Uno sguardo da vicino</h3>
               <div className="screenshots">
                 {app.screenshots.map((s, i) => (
-                  <a key={s} href={assetUrl(s)} target="_blank" rel="noreferrer">
+                  <a
+                    key={s}
+                    href={assetUrl(s)}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
                     <img
                       src={assetUrl(s)}
                       alt={`${app.title}: schermata ${i + 1}`}
@@ -674,7 +679,8 @@ export default function App() {
   const [filters, setFilters] = useState(false);
   const [toast, setToast] = useState("");
   const searchRef = useRef(null),
-    catalogRef = useRef(null);
+    catalogRef = useRef(null),
+    loadMoreRef = useRef(null);
   const reduced = useReducedMotion();
   const visibleFavoriteCount = favorites.filter((repo) =>
     allApps.some((app) => app.repo === repo),
@@ -823,6 +829,30 @@ export default function App() {
             a.title.localeCompare(b.title, "it"),
     );
   }, [view, query, category, platform, visibility, sort, favorites, allApps]);
+  useEffect(() => {
+    if (selected || pinOpen || limit >= visible.length) return;
+    const sentinel = loadMoreRef.current;
+    if (!sentinel) return;
+    if (!("IntersectionObserver" in window)) {
+      setLimit(visible.length);
+      return;
+    }
+    let cancelled = false;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (cancelled || !entries.some((entry) => entry.isIntersecting)) return;
+        cancelled = true;
+        observer.disconnect();
+        setLimit((current) => Math.min(current + 12, visible.length));
+      },
+      { rootMargin: "220px 0px", threshold: 0 },
+    );
+    observer.observe(sentinel);
+    return () => {
+      cancelled = true;
+      observer.disconnect();
+    };
+  }, [limit, visible, selected, pinOpen]);
   const downloading = allApps.filter((a) => a.downloads?.length).length;
   const isDiscover =
     view === "discover" &&
@@ -1237,15 +1267,27 @@ export default function App() {
                 </button>
               </div>
             )}
-            {visible.length > limit && (
-              <div className="load-more">
-                <button onClick={() => setLimit((l) => l + 12)}>
-                  Ancora un po’ di curiosità
-                  <ArrowDown size={16} />
-                </button>
+            {visible.length > 0 && (
+              <div
+                className="load-more"
+                ref={loadMoreRef}
+                role="status"
+                aria-live="polite"
+                aria-atomic="true"
+              >
                 <span>
+                  {visible.length > limit ? (
+                    <ArrowDown size={14} aria-hidden="true" />
+                  ) : (
+                    <Check size={14} aria-hidden="true" />
+                  )}
                   {Math.min(limit, visible.length)} di {visible.length} progetti
                 </span>
+                <small>
+                  {visible.length > limit
+                    ? "Continua a scorrere, al resto pensiamo noi."
+                    : "Hai visto tutti i progetti della lista."}
+                </small>
               </div>
             )}
           </section>

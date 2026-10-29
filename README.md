@@ -8,7 +8,7 @@ La raccolta di app, giochi e progetti di **Flavio Ceccarelli**: un’interfaccia
 
 - **43 progetti visibili**, con loghi originali, descrizioni, piattaforme e screenshot disponibili.
 - **26 progetti scaricabili**, con 40 pacchetti delle release GitHub verificate al 29 ottobre 2026.
-- Ricerca, categorie, filtri per piattaforma, vista griglia/elenco e preferiti salvati sul dispositivo.
+- Ricerca, categorie, filtri per piattaforma, vista griglia/elenco, caricamento automatico scorrendo la lista e preferiti salvati sul dispositivo.
 - Tema chiaro/scuro, navigazione responsive, animazioni e rispetto delle preferenze di movimento ridotto.
 - Un’area con PIN per un ulteriore progetto, conservato in un pacchetto cifrato separato.
 

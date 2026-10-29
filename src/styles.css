@@ -3723,3 +3723,15 @@ main {
     animation: none;
   }
 }
+
+.load-more > span {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+.load-more > small {
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.6;
+  text-align: center;
+}
