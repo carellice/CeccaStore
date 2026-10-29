@@ -1281,7 +1281,8 @@ export default function App() {
                   ) : (
                     <Check size={14} aria-hidden="true" />
                   )}
-                  {Math.min(limit, visible.length)} di {visible.length} progetti
+                  {Math.min(limit, visible.length)} di {visible.length}{" "}
+                  {visible.length === 1 ? "progetto" : "progetti"}
                 </span>
                 <small>
                   {visible.length > limit
