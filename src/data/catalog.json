@@ -1,0 +1,1443 @@
+[
+  {
+    "repo": "mercenaries-mod-manager",
+    "title": "Mercenaries Mod Manager",
+    "description": "Gestore di mod e strumenti per una copia privata di Mercenaries Recompiled. Seleziona le modifiche e avvia il gioco da un unico pannello.",
+    "category": "Giochi",
+    "platforms": [
+      "Windows"
+    ],
+    "features": [
+      "Selezione e applicazione delle mod",
+      "Avvio del gioco dal gestore",
+      "Menu ordini e lingua italiana"
+    ],
+    "icon": null,
+    "screenshots": [],
+    "version": null,
+    "downloads": [],
+    "demo": null,
+    "url": "https://github.com/carellice/mercenaries-mod-manager",
+    "isPrivate": true,
+    "language": "Tcl",
+    "updatedAt": "2026-10-29T11:41:21Z",
+    "kind": "project"
+  },
+  {
+    "repo": "niente-zombie-per-favore",
+    "title": "Niente Zombie Per Favore!",
+    "description": "Costruisci un rifugio, accogli i sopravvissuti e proteggi il cancello. Un gestionale 2D con città a spaccato, spedizioni e difesa dagli zombie.",
+    "category": "Giochi",
+    "platforms": [
+      "Windows",
+      "Android"
+    ],
+    "features": [
+      "Costruzione e gestione del rifugio",
+      "Sopravvissuti, lavori e squadre",
+      "Spedizioni e difesa del cancello"
+    ],
+    "icon": "/icons/niente-zombie-per-favore.png",
+    "screenshots": [],
+    "version": null,
+    "downloads": [],
+    "demo": null,
+    "url": "https://github.com/carellice/niente-zombie-per-favore",
+    "isPrivate": true,
+    "language": "GDScript",
+    "updatedAt": "2026-10-29T14:14:14Z",
+    "kind": "project"
+  },
+  {
+    "repo": "IPTVISION",
+    "title": "IPTVISION",
+    "description": "TV in diretta, film e serie in un unico lettore. Dal PC al telefono fino alla TV, con guida programmi, ripresa della visione e modalità telecomando.",
+    "category": "Media",
+    "platforms": [
+      "Windows",
+      "Android",
+      "Android TV",
+      "webOS",
+      "Tizen"
+    ],
+    "features": [
+      "TV in diretta e guida programmi",
+      "Film e serie con ripresa della visione",
+      "Download offline su Windows e Android"
+    ],
+    "icon": "/icons/IPTVISION.png",
+    "screenshots": [
+      "/screenshots/IPTVISION-1.png",
+      "/screenshots/IPTVISION-2.png"
+    ],
+    "version": "1.8.2",
+    "downloads": [
+      {
+        "name": "IPTVISION-1.8.2.apk",
+        "label": "Android · APK",
+        "url": "https://github.com/carellice/IPTVISION/releases/download/v1.8.2/IPTVISION-1.8.2.apk",
+        "size": 2745803,
+        "private": false
+      },
+      {
+        "name": "IPTVISION-1.8.2.ipk",
+        "label": "TV LG webOS · IPK",
+        "url": "https://github.com/carellice/IPTVISION/releases/download/v1.8.2/IPTVISION-1.8.2.ipk",
+        "size": 127196,
+        "private": false
+      },
+      {
+        "name": "IPTVISION-1.8.2.wgt",
+        "label": "TV Samsung Tizen · WGT",
+        "url": "https://github.com/carellice/IPTVISION/releases/download/v1.8.2/IPTVISION-1.8.2.wgt",
+        "size": 137580,
+        "private": false
+      },
+      {
+        "name": "IPTVISION-Setup-1.8.2.exe",
+        "label": "Windows · installer",
+        "url": "https://github.com/carellice/IPTVISION/releases/download/v1.8.2/IPTVISION-Setup-1.8.2.exe",
+        "size": 71420808,
+        "private": false
+      }
+    ],
+    "demo": null,
+    "url": "https://github.com/carellice/IPTVISION",
+    "isPrivate": false,
+    "language": "C#",
+    "updatedAt": "2026-10-29T13:12:20Z",
+    "kind": "project",
+    "installNotes": "Il lettore non include canali: serve un servizio IPTV a cui hai diritto di accedere. I pacchetti per TV LG webOS e Samsung Tizen richiedono la procedura sviluppatore descritta nel README."
+  },
+  {
+    "repo": "sito-portfolio",
+    "title": "Portfolio di Flavio Ceccarelli",
+    "description": "Portfolio personale bilingue per presentare progetti web, mobile e desktop, con tema automatico e collegamento al catalogo dei progetti.",
+    "category": "Web",
+    "platforms": [
+      "Web"
+    ],
+    "features": [
+      "Italiano e inglese",
+      "Tema chiaro e scuro",
+      "Catalogo progetti Notion",
+      "Layout responsive"
+    ],
+    "icon": "/icons/sito-portfolio.jpg",
+    "screenshots": [],
+    "version": "0.1.0",
+    "downloads": [],
+    "demo": "https://flavioceccarelli.org/",
+    "url": "https://github.com/carellice/sito-portfolio",
+    "isPrivate": true,
+    "language": "JavaScript",
+    "updatedAt": "2026-10-29T12:32:48Z",
+    "kind": "project"
+  },
+  {
+    "repo": "brieffo",
+    "title": "Brieffo",
+    "description": "Meteo, agenda, spostamenti, salute e notizie in un riepilogo personale che segue il ritmo della giornata. Puoi anche ascoltarlo, con una voce sul telefono.",
+    "category": "Produttività",
+    "platforms": [
+      "Android"
+    ],
+    "features": [
+      "Riepilogo vocale",
+      "Meteo e agenda",
+      "Widget personalizzabili",
+      "Notizie e sport"
+    ],
+    "icon": "/icons/brieffo.png",
+    "screenshots": [
+      "/screenshots/brieffo-1.png",
+      "/screenshots/brieffo-2.png"
+    ],
+    "version": "1.22",
+    "downloads": [
+      {
+        "name": "Brieffo.apk",
+        "label": "Android · APK",
+        "url": "https://github.com/carellice/brieffo/releases/download/v1.22/Brieffo.apk",
+        "size": 32735683,
+        "private": false
+      }
+    ],
+    "demo": null,
+    "url": "https://github.com/carellice/brieffo",
+    "isPrivate": false,
+    "language": "Kotlin",
+    "updatedAt": "2026-10-29T12:02:33Z",
+    "kind": "project",
+    "installNotes": "Richiede Android 9 o successivo. Se aggiorni dalla versione 1.20, esporta il backup, disinstalla la vecchia app, installa il nuovo APK e reimporta il backup; la firma è cambiata dalla 1.21."
+  },
+  {
+    "repo": "money",
+    "title": "Money",
+    "description": "Spese, entrate e abbonamenti in pochi tocchi, con report mensili e budget. Un assistente AI facoltativo aiuta a leggere le tue abitudini di spesa.",
+    "category": "Finanza",
+    "platforms": [
+      "Android"
+    ],
+    "features": [
+      "Spese ed entrate",
+      "Abbonamenti e rinnovi",
+      "Report e budget",
+      "Assistente AI facoltativo"
+    ],
+    "icon": "/icons/money.png",
+    "screenshots": [],
+    "version": "1.3.1",
+    "downloads": [
+      {
+        "name": "Money-1.3.1.apk",
+        "label": "Android · APK",
+        "url": "https://github.com/carellice/money/releases/download/v1.3.1/Money-1.3.1.apk",
+        "size": 6083929,
+        "private": false
+      }
+    ],
+    "demo": null,
+    "url": "https://github.com/carellice/money",
+    "isPrivate": false,
+    "language": "Kotlin",
+    "updatedAt": "2026-10-29T11:50:04Z",
+    "kind": "project",
+    "installNotes": "Richiede Android 11 o successivo. L’assistente AI è facoltativo e richiede la configurazione del proprio account Cloudflare Workers AI."
+  },
+  {
+    "repo": "easy-crypt",
+    "title": "EasyCrypt",
+    "description": "Cifra testi e messaggi con una password, direttamente sul tuo dispositivo. I messaggi restano compatibili tra Android, Mac e PC.",
+    "category": "Strumenti",
+    "platforms": [
+      "Android",
+      "Windows",
+      "macOS"
+    ],
+    "features": [
+      "Cifratura AES-256-GCM in locale",
+      "Condivisione e selezione testo su Android",
+      "Blocco biometrico su Android"
+    ],
+    "icon": "/icons/easy-crypt.png",
+    "screenshots": [],
+    "version": "1.0.11",
+    "downloads": [
+      {
+        "name": "EasyCrypt-Android-1.0.11.apk",
+        "label": "Android · APK",
+        "url": "https://github.com/carellice/easy-crypt/releases/download/v1.0.11/EasyCrypt-Android-1.0.11.apk",
+        "size": 1971670,
+        "private": false
+      },
+      {
+        "name": "EasyCrypt-Mac-AppleSilicon-1.0.11.zip",
+        "label": "macOS · Apple Silicon",
+        "url": "https://github.com/carellice/easy-crypt/releases/download/v1.0.11/EasyCrypt-Mac-AppleSilicon-1.0.11.zip",
+        "size": 14658192,
+        "private": false
+      },
+      {
+        "name": "EasyCrypt-Mac-Intel-1.0.11.zip",
+        "label": "macOS · Intel",
+        "url": "https://github.com/carellice/easy-crypt/releases/download/v1.0.11/EasyCrypt-Mac-Intel-1.0.11.zip",
+        "size": 13710079,
+        "private": false
+      },
+      {
+        "name": "EasyCrypt-PC-1.0.11.exe",
+        "label": "Windows · applicazione",
+        "url": "https://github.com/carellice/easy-crypt/releases/download/v1.0.11/EasyCrypt-PC-1.0.11.exe",
+        "size": 16431890,
+        "private": false
+      },
+      {
+        "name": "EasyCrypt-PC-1.0.11.zip",
+        "label": "Windows · pacchetto Python",
+        "url": "https://github.com/carellice/easy-crypt/releases/download/v1.0.11/EasyCrypt-PC-1.0.11.zip",
+        "size": 52438,
+        "private": false
+      }
+    ],
+    "demo": null,
+    "url": "https://github.com/carellice/easy-crypt",
+    "isPrivate": false,
+    "language": "Python",
+    "updatedAt": "2026-10-29T09:44:42Z",
+    "kind": "project",
+    "installNotes": "Su Windows l’EXE è autonomo; lo ZIP richiede Python. Su macOS scegli il pacchetto Apple Silicon oppure Intel. La versione Android 1.0.11 usa una nuova firma: per aggiornare una versione precedente è necessario reinstallare."
+  },
+  {
+    "repo": "dueffe-streamwise",
+    "title": "StreamWise",
+    "description": "Il tuo catalogo personale di film e serie TV: scopri cosa guardare e dove trovarlo. Segui episodi, uscite e persone, con consigli su misura e guida TV.",
+    "category": "Media",
+    "platforms": [
+      "Android"
+    ],
+    "features": [
+      "Film e serie TV",
+      "Dove guardare in Italia",
+      "Guida TV",
+      "Avvisi nuove uscite"
+    ],
+    "icon": "/icons/dueffe-streamwise.png",
+    "screenshots": [],
+    "version": "2.0.138",
+    "downloads": [
+      {
+        "name": "StreamWise-2.0.138.apk",
+        "label": "Android · APK",
+        "url": "https://github.com/carellice/android-app-releases/releases/download/streamwise-v2.0.138/StreamWise-2.0.138.apk",
+        "size": 16734402,
+        "private": false
+      }
+    ],
+    "demo": null,
+    "url": "https://github.com/carellice/dueffe-streamwise",
+    "isPrivate": true,
+    "language": "Kotlin",
+    "updatedAt": "2026-10-29T09:32:26Z",
+    "kind": "project"
+  },
+  {
+    "repo": "Topperia",
+    "title": "Topperia",
+    "description": "Il mondo è una Top 10: un trivia italiano con trenta classifiche reali e dieci tentativi. Gioca offline in solitaria o sfida un amico sullo stesso telefono.",
+    "category": "Giochi",
+    "platforms": [
+      "Android"
+    ],
+    "features": [
+      "30 classifiche reali",
+      "Sfide locali",
+      "Partite offline",
+      "Modalità Sorprendimi"
+    ],
+    "icon": "/icons/Topperia.png",
+    "screenshots": [
+      "/screenshots/Topperia-1.png"
+    ],
+    "version": "1.1.5",
+    "downloads": [
+      {
+        "name": "Topperia-1.1.5.apk",
+        "label": "Android · APK",
+        "url": "https://github.com/carellice/Topperia/releases/download/v1.1.5/Topperia-1.1.5.apk",
+        "size": 616600,
+        "private": false
+      }
+    ],
+    "demo": null,
+    "url": "https://github.com/carellice/Topperia",
+    "isPrivate": false,
+    "language": "Java",
+    "updatedAt": "2026-10-28T21:35:44Z",
+    "kind": "project"
+  },
+  {
+    "repo": "dueffe-garage",
+    "title": "Garage",
+    "description": "Auto, manutenzione, scadenze e documenti in un unico posto. Organizza interventi e promemoria per data o chilometraggio, con tutti i dati sul dispositivo.",
+    "category": "Produttività",
+    "platforms": [
+      "Android"
+    ],
+    "features": [
+      "Schede auto",
+      "Interventi e costi",
+      "Promemoria e scadenze",
+      "Documenti locali"
+    ],
+    "icon": "/icons/dueffe-garage.png",
+    "screenshots": [],
+    "version": "1.0.46",
+    "downloads": [
+      {
+        "name": "garage-v1.0.46.apk",
+        "label": "Android · APK",
+        "url": "https://github.com/carellice/android-app-releases/releases/download/garage-v1.0.46/garage-v1.0.46.apk",
+        "size": 9538360,
+        "private": false
+      }
+    ],
+    "demo": null,
+    "url": "https://github.com/carellice/dueffe-garage",
+    "isPrivate": true,
+    "language": "Kotlin",
+    "updatedAt": "2026-10-28T15:22:31Z",
+    "kind": "project"
+  },
+  {
+    "repo": "Scarabben",
+    "title": "Scarabben",
+    "description": "Un gioco di parole italiano con tessere da toccare e trascinare. Sfida Ben a tre difficoltà oppure gioca in due sullo stesso telefono, anche offline.",
+    "category": "Giochi",
+    "platforms": [
+      "Android"
+    ],
+    "features": [
+      "Avversario CPU",
+      "Due giocatori locali",
+      "Lessico italiano incluso",
+      "Salvataggio partita"
+    ],
+    "icon": "/icons/Scarabben.png",
+    "screenshots": [
+      "/screenshots/Scarabben-1.png",
+      "/screenshots/Scarabben-2.png"
+    ],
+    "version": "1.1.3",
+    "downloads": [
+      {
+        "name": "Scarabben.apk",
+        "label": "Android · APK",
+        "url": "https://github.com/carellice/Scarabben/releases/download/v1.1.3/Scarabben.apk",
+        "size": 1498217,
+        "private": true
+      }
+    ],
+    "demo": null,
+    "url": "https://github.com/carellice/Scarabben",
+    "isPrivate": true,
+    "language": "Java",
+    "updatedAt": "2026-10-28T15:30:58Z",
+    "kind": "project",
+    "installNotes": "Sorgenti e release sono privati: per scaricare l’APK devi accedere a GitHub con un account autorizzato. Richiede Android 8.0 o successivo."
+  },
+  {
+    "repo": "spariaps-game",
+    "title": "Spariaps",
+    "description": "Salta, spara e sopravvivi a ondate di nemici. Un arena shooter frenetico con zombie, boss e supporto controller, giocabile anche dal browser.",
+    "category": "Giochi",
+    "platforms": [
+      "Windows",
+      "Web"
+    ],
+    "features": [
+      "Modalità Classica e Zombie",
+      "Boss ogni cinque ondate",
+      "Controller e comandi touch"
+    ],
+    "icon": "/icons/spariaps-game.png",
+    "screenshots": [
+      "/screenshots/spariaps-game-1.jpg",
+      "/screenshots/spariaps-game-2.jpg"
+    ],
+    "version": "2.0.0",
+    "downloads": [
+      {
+        "name": "Spariaps.exe",
+        "label": "Windows · applicazione",
+        "url": "https://github.com/carellice/spariaps-game/releases/download/v2.0.0/Spariaps.exe",
+        "size": 117684424,
+        "private": false
+      }
+    ],
+    "demo": "https://carellice.github.io/spariaps-game/",
+    "url": "https://github.com/carellice/spariaps-game",
+    "isPrivate": false,
+    "language": "GDScript",
+    "updatedAt": "2026-10-27T22:28:03Z",
+    "kind": "project"
+  },
+  {
+    "repo": "chatgpt-image-mcp",
+    "title": "ChatGPT Image MCP",
+    "description": "Un server MCP che permette a Claude di generare e modificare immagini con ChatGPT attraverso l’app desktop già presente sul computer.",
+    "category": "Sviluppo",
+    "platforms": [
+      "Windows",
+      "Node.js"
+    ],
+    "features": [
+      "Generazione e modifica di immagini",
+      "Anteprime nel client MCP",
+      "Salvataggio locale senza sovrascritture"
+    ],
+    "icon": null,
+    "screenshots": [],
+    "version": null,
+    "downloads": [],
+    "demo": null,
+    "url": "https://github.com/carellice/chatgpt-image-mcp",
+    "isPrivate": false,
+    "language": "JavaScript",
+    "updatedAt": "2026-10-27T15:42:15Z",
+    "kind": "project"
+  },
+  {
+    "repo": "Mappinando",
+    "title": "Mappinando",
+    "description": "Il tuo piccolo atlante personale, per raccogliere i luoghi che ami e quelli da scoprire. Salva tappe sulla mappa e accompagna ogni posto con note e cose da fare.",
+    "category": "Viaggi",
+    "platforms": [
+      "Android"
+    ],
+    "features": [
+      "Mappa immersiva",
+      "Luoghi per città",
+      "Note e checklist",
+      "Ricerca indirizzi"
+    ],
+    "icon": "/icons/Mappinando.png",
+    "screenshots": [
+      "/screenshots/Mappinando-1.png",
+      "/screenshots/Mappinando-2.png"
+    ],
+    "version": "1.0.9",
+    "downloads": [
+      {
+        "name": "Mappinando-1.0.9-debug.apk",
+        "label": "Android · APK debug",
+        "url": "https://github.com/carellice/Mappinando/releases/download/v1.0.9/Mappinando-1.0.9-debug.apk",
+        "size": 61215070,
+        "private": false
+      }
+    ],
+    "demo": null,
+    "url": "https://github.com/carellice/Mappinando",
+    "isPrivate": false,
+    "language": "Kotlin",
+    "updatedAt": "2026-10-27T15:29:57Z",
+    "kind": "project",
+    "installNotes": "Richiede Android 8.0 o successivo e OpenGL ES 3.0. L’asset disponibile nella release corrente è identificato come APK debug; installalo senza disinstallare l’app per conservare luoghi e note."
+  },
+  {
+    "repo": "arcade-classici",
+    "title": "Arcadio",
+    "description": "Sei classici arcade rivisitati con grafica neon e synthwave: Snake, Campo Minato, Breakout, Invasori, Blocchi e PONG. Con tutorial, musiche e sfide locali.",
+    "category": "Giochi",
+    "platforms": [
+      "Android"
+    ],
+    "features": [
+      "6 giochi classici",
+      "Grafica neon e 3D",
+      "Musiche originali",
+      "PONG 1v1 locale"
+    ],
+    "icon": "/icons/arcade-classici.svg",
+    "screenshots": [],
+    "version": "1.4.0",
+    "downloads": [
+      {
+        "name": "Arcadio.apk",
+        "label": "Android · APK",
+        "url": "https://github.com/carellice/arcade-classici/releases/download/v1.4.0/Arcadio.apk",
+        "size": 1058948,
+        "private": false
+      }
+    ],
+    "demo": null,
+    "url": "https://github.com/carellice/arcade-classici",
+    "isPrivate": false,
+    "language": "Kotlin",
+    "updatedAt": "2026-10-27T09:57:28Z",
+    "kind": "project"
+  },
+  {
+    "repo": "locanding",
+    "title": "Locanding",
+    "description": "Una locanda tranquilla, una storia senza fine. Accogli i clienti, prepara le ricette e fai crescere la tua locanda medievale, al ritmo che preferisci.",
+    "category": "Giochi",
+    "platforms": [
+      "Windows",
+      "macOS"
+    ],
+    "features": [
+      "Gestione punta e clicca",
+      "Ricette, mercato e migliorie",
+      "Modalità zen e salvataggi"
+    ],
+    "icon": "/icons/locanding.png",
+    "screenshots": [
+      "/screenshots/locanding-1.png"
+    ],
+    "version": null,
+    "downloads": [],
+    "demo": null,
+    "url": "https://github.com/carellice/locanding",
+    "isPrivate": true,
+    "language": "GDScript",
+    "updatedAt": "2026-10-27T09:22:31Z",
+    "kind": "project"
+  },
+  {
+    "repo": "MonitorSwitch",
+    "title": "MonitorSwitch",
+    "description": "Ricorda i monitor del tuo PC e passa da un profilo all’altro con schermi e risoluzioni precisi. Tutto a portata di icona nella barra di sistema.",
+    "category": "Strumenti",
+    "platforms": [
+      "Windows"
+    ],
+    "features": [
+      "Profili per schermi e risoluzioni",
+      "Nomi personalizzati per i monitor",
+      "Ripristino automatico se non confermi"
+    ],
+    "icon": "/icons/MonitorSwitch.png",
+    "screenshots": [
+      "/screenshots/MonitorSwitch-1.png"
+    ],
+    "version": "3.0.1",
+    "downloads": [
+      {
+        "name": "MonitorSwitch-portable-win-x64.zip",
+        "label": "Windows · ZIP 64 bit",
+        "url": "https://github.com/carellice/MonitorSwitch/releases/download/v3.0.1/MonitorSwitch-portable-win-x64.zip",
+        "size": 154470,
+        "private": false
+      },
+      {
+        "name": "MonitorSwitch.exe",
+        "label": "Windows · applicazione",
+        "url": "https://github.com/carellice/MonitorSwitch/releases/download/v3.0.1/MonitorSwitch.exe",
+        "size": 249344,
+        "private": false
+      }
+    ],
+    "demo": null,
+    "url": "https://github.com/carellice/MonitorSwitch",
+    "isPrivate": false,
+    "language": "C#",
+    "updatedAt": "2026-10-26T15:39:52Z",
+    "kind": "project"
+  },
+  {
+    "repo": "chiarella",
+    "title": "Chiarella",
+    "description": "Mescola suoni della natura per rilassarti, concentrarti e dormire. Salva i tuoi mix, imposta un timer e prenditi un momento con un respiro guidato.",
+    "category": "Benessere",
+    "platforms": [
+      "Android",
+      "Windows",
+      "Web"
+    ],
+    "features": [
+      "11 suoni da mescolare",
+      "Timer con dissolvenza",
+      "Profili personali",
+      "Respirazione guidata"
+    ],
+    "icon": "/icons/chiarella.png",
+    "screenshots": [],
+    "version": "1.10",
+    "downloads": [
+      {
+        "name": "Chiarella-1.10.apk",
+        "label": "Android · APK",
+        "url": "https://github.com/carellice/chiarella/releases/download/v1.10/Chiarella-1.10.apk",
+        "size": 25175876,
+        "private": false
+      },
+      {
+        "name": "Chiarella-Web-1.10.zip",
+        "label": "Web · pacchetto statico",
+        "url": "https://github.com/carellice/chiarella/releases/download/v1.10/Chiarella-Web-1.10.zip",
+        "size": 22100879,
+        "private": false
+      },
+      {
+        "name": "Chiarella-Windows-1.10.zip",
+        "label": "Windows · ZIP",
+        "url": "https://github.com/carellice/chiarella/releases/download/v1.10/Chiarella-Windows-1.10.zip",
+        "size": 87365966,
+        "private": false
+      }
+    ],
+    "demo": "https://carellice.github.io/chiarella/",
+    "url": "https://github.com/carellice/chiarella",
+    "isPrivate": false,
+    "language": "Kotlin",
+    "updatedAt": "2026-10-24T17:02:02Z",
+    "kind": "project",
+    "installNotes": "Android 8.0 o successivo. Su Windows 10 1809 o successivo, a 64 bit, estrai lo ZIP e avvia Chiarella.exe. La versione web si apre direttamente nel browser."
+  },
+  {
+    "repo": "hommaterial",
+    "title": "Hommaterial",
+    "description": "Un pannello per la tua smart home collegata ad Alexa: dispositivi, stanze, gruppi, timer e sensori a portata di mano. Disponibile su Android, web e Windows in anteprima.",
+    "category": "Strumenti",
+    "platforms": [
+      "Android",
+      "Windows",
+      "Web"
+    ],
+    "features": [
+      "Dispositivi e stanze",
+      "Timer e sensori",
+      "Widget e NFC",
+      "Modalità monitor"
+    ],
+    "icon": "/icons/hommaterial.png",
+    "screenshots": [],
+    "version": "1.38",
+    "downloads": [
+      {
+        "name": "Hommaterial-v1.38-windows-x64.zip",
+        "label": "Windows · ZIP 64 bit",
+        "url": "https://github.com/carellice/hommaterial/releases/download/v1.38/Hommaterial-v1.38-windows-x64.zip",
+        "size": 130851763,
+        "private": false
+      },
+      {
+        "name": "Hommaterial-v1.38.apk",
+        "label": "Android · APK",
+        "url": "https://github.com/carellice/hommaterial/releases/download/v1.38/Hommaterial-v1.38.apk",
+        "size": 3017553,
+        "private": false
+      }
+    ],
+    "demo": "https://carellice.github.io/hommaterial/",
+    "url": "https://github.com/carellice/hommaterial",
+    "isPrivate": false,
+    "language": "Kotlin",
+    "updatedAt": "2026-10-24T09:20:00Z",
+    "kind": "project",
+    "installNotes": "Client indipendente, non affiliato ad Amazon: usa API Alexa non ufficiali. Leggi requisiti di configurazione e limiti nel README. La versione Windows è in anteprima."
+  },
+  {
+    "repo": "piccole-gioie",
+    "title": "piccole gioie",
+    "description": "Un barattolo della felicità per custodire piccoli momenti e pensieri di gratitudine. Scrivi un ricordo, ritrovalo nella raccolta o lascia che il barattolo ti regali un sorriso.",
+    "category": "Benessere",
+    "platforms": [
+      "Android"
+    ],
+    "features": [
+      "Ricordi e gratitudine",
+      "Foglietti colorati",
+      "Preferiti e ricerca",
+      "Promemoria quotidiano"
+    ],
+    "icon": "/icons/piccole-gioie.png",
+    "screenshots": [
+      "/screenshots/piccole-gioie-1.png",
+      "/screenshots/piccole-gioie-2.png"
+    ],
+    "version": "1.4.0",
+    "downloads": [
+      {
+        "name": "piccole-gioie.apk",
+        "label": "Android · APK",
+        "url": "https://github.com/carellice/piccole-gioie/releases/download/v1.4.0/piccole-gioie.apk",
+        "size": 12123649,
+        "private": false
+      }
+    ],
+    "demo": null,
+    "url": "https://github.com/carellice/piccole-gioie",
+    "isPrivate": false,
+    "language": "Kotlin",
+    "updatedAt": "2026-10-23T18:27:24Z",
+    "kind": "project"
+  },
+  {
+    "repo": "dueffe-health",
+    "title": "Health",
+    "description": "Organizza terapie, visite e documenti sanitari sul tuo telefono. Programma le dosi, registra le assunzioni e conserva gli allegati nello spazio privato dell’app.",
+    "category": "Benessere",
+    "platforms": [
+      "Android"
+    ],
+    "features": [
+      "Terapie e promemoria",
+      "Visite",
+      "Documenti sanitari locali",
+      "Backup JSON"
+    ],
+    "icon": "/icons/dueffe-health.png",
+    "screenshots": [],
+    "version": "1.0.27",
+    "downloads": [
+      {
+        "name": "health-1.0.27.apk",
+        "label": "Android · APK",
+        "url": "https://github.com/carellice/android-app-releases/releases/download/health-v1.0.27/health-1.0.27.apk",
+        "size": 13200042,
+        "private": false
+      }
+    ],
+    "demo": null,
+    "url": "https://github.com/carellice/dueffe-health",
+    "isPrivate": true,
+    "language": "Kotlin",
+    "updatedAt": "2026-10-22T10:02:40Z",
+    "kind": "project"
+  },
+  {
+    "repo": "dueffe-since",
+    "title": "Since",
+    "description": "Segui i tuoi percorsi e le tue abitudini, un traguardo alla volta. Raccogli le passioni e rifletti sugli acquisti attraverso un questionario per scelte più consapevoli.",
+    "category": "Benessere",
+    "platforms": [
+      "Android"
+    ],
+    "features": [
+      "Percorsi e traguardi",
+      "Storico ricercabile",
+      "Passioni personali",
+      "Acquisti consapevoli"
+    ],
+    "icon": "/icons/dueffe-since.png",
+    "screenshots": [],
+    "version": "1.0.21",
+    "downloads": [
+      {
+        "name": "Since-v1.0.21.apk",
+        "label": "Android · APK",
+        "url": "https://github.com/carellice/android-app-releases/releases/download/since-v1.0.21/Since-v1.0.21.apk",
+        "size": 18167685,
+        "private": false
+      }
+    ],
+    "demo": null,
+    "url": "https://github.com/carellice/dueffe-since",
+    "isPrivate": true,
+    "language": "Kotlin",
+    "updatedAt": "2026-10-21T18:30:26Z",
+    "kind": "project",
+    "installNotes": "La release 1.0.21 usa una nuova firma: se hai una versione precedente, esporta il backup dalle impostazioni, disinstalla l’app, installa questo APK e importa il backup."
+  },
+  {
+    "repo": "dueffe-subber",
+    "title": "Subber",
+    "description": "Tutti i tuoi abbonamenti e rinnovi in un unico posto. Controlla costi, storico dei pagamenti e scadenze, con promemoria e un widget dedicato.",
+    "category": "Finanza",
+    "platforms": [
+      "Android"
+    ],
+    "features": [
+      "Abbonamenti e rinnovi",
+      "Analisi delle spese",
+      "Avvisi di scadenza",
+      "Widget prossimi rinnovi"
+    ],
+    "icon": "/icons/dueffe-subber.png",
+    "screenshots": [],
+    "version": "1.0.60",
+    "downloads": [
+      {
+        "name": "Subber-1.0.60.apk",
+        "label": "Android · APK",
+        "url": "https://github.com/carellice/android-app-releases/releases/download/subber-v1.0.60/Subber-1.0.60.apk",
+        "size": 2356970,
+        "private": false
+      }
+    ],
+    "demo": null,
+    "url": "https://github.com/carellice/dueffe-subber",
+    "isPrivate": true,
+    "language": "Kotlin",
+    "updatedAt": "2026-10-21T14:46:45Z",
+    "kind": "project"
+  },
+  {
+    "repo": "LoopingSounds",
+    "title": "Looping Sounds",
+    "description": "Trasforma qualsiasi suono in un loop senza stacchi udibili. Analizza l’audio nel browser, ascolta la giunzione ed esporta il risultato in WAV.",
+    "category": "Media",
+    "platforms": [
+      "Web"
+    ],
+    "features": [
+      "Ricerca automatica dei punti di loop",
+      "Crossfade regolabile",
+      "Esportazione WAV e versione estesa"
+    ],
+    "icon": "/icons/LoopingSounds.svg",
+    "screenshots": [],
+    "version": null,
+    "downloads": [],
+    "demo": "https://carellice.github.io/LoopingSounds/",
+    "url": "https://github.com/carellice/LoopingSounds",
+    "isPrivate": false,
+    "language": "HTML",
+    "updatedAt": "2026-10-20T17:57:03Z",
+    "kind": "project"
+  },
+  {
+    "repo": "Castino",
+    "title": "Castino",
+    "description": "Il tuo Android, sul tuo PC. Mostra lo schermo del telefono su Windows via Wi-Fi e controllalo con mouse, tastiera e touch.",
+    "category": "Strumenti",
+    "platforms": [
+      "Windows"
+    ],
+    "features": [
+      "Mirroring Android via Wi-Fi",
+      "Associazione con QR o codice",
+      "Controllo da mouse e tastiera"
+    ],
+    "icon": "/icons/Castino.png",
+    "screenshots": [],
+    "version": "0.1.1",
+    "downloads": [
+      {
+        "name": "Castino-0.1.1-win-x64.zip",
+        "label": "Windows · ZIP 64 bit",
+        "url": "https://github.com/carellice/Castino/releases/download/v0.1.1/Castino-0.1.1-win-x64.zip",
+        "size": 98945341,
+        "private": false
+      }
+    ],
+    "demo": null,
+    "url": "https://github.com/carellice/Castino",
+    "isPrivate": false,
+    "language": "C#",
+    "updatedAt": "2026-10-19T16:17:40Z",
+    "kind": "project",
+    "installNotes": "Su Windows estrai interamente lo ZIP prima dell’avvio. L’associazione Wi-Fi tramite QR richiede Android 11 o successivo; le istruzioni sono nel README."
+  },
+  {
+    "repo": "ND2.0",
+    "title": "ND2.0",
+    "description": "Non disturbare, ma con intelligenza: scegli quali persone e app possono raggiungerti. Le notifiche bloccate restano da parte e tornano quando disattivi la modalità.",
+    "category": "Produttività",
+    "platforms": [
+      "Android"
+    ],
+    "features": [
+      "Contatti abilitati",
+      "App sempre abilitate",
+      "Pulsante rapido",
+      "Backup configurazione"
+    ],
+    "icon": "/icons/ND2.0.png",
+    "screenshots": [
+      "/screenshots/ND2.0-1.png",
+      "/screenshots/ND2.0-2.png"
+    ],
+    "version": "1.3",
+    "downloads": [
+      {
+        "name": "ND2.0.apk",
+        "label": "Android · APK",
+        "url": "https://github.com/carellice/ND2.0/releases/download/v1.3/ND2.0.apk",
+        "size": 21804408,
+        "private": false
+      }
+    ],
+    "demo": null,
+    "url": "https://github.com/carellice/ND2.0",
+    "isPrivate": false,
+    "language": "Kotlin",
+    "updatedAt": "2026-10-18T10:17:04Z",
+    "kind": "project",
+    "installNotes": "Dopo l’installazione completa la configurazione dei permessi nell’app. La versione 1.3 usa una nuova firma: dalla 1.2 è necessario disinstallare e reinstallare."
+  },
+  {
+    "repo": "appunto",
+    "title": "Appunto",
+    "description": "Una selezione personale di applicazioni utili per Mac, Windows e Android. Un piccolo desktop nel browser per scoprire strumenti e raggiungerne i siti ufficiali.",
+    "category": "Produttività",
+    "platforms": [
+      "Web"
+    ],
+    "features": [
+      "Catalogo di app selezionate",
+      "Interfaccia desktop e mobile",
+      "Ricerca e schede dettagliate"
+    ],
+    "icon": "/icons/appunto.svg",
+    "screenshots": [],
+    "version": null,
+    "downloads": [],
+    "demo": "https://carellice.github.io/appunto/",
+    "url": "https://github.com/carellice/appunto",
+    "isPrivate": false,
+    "language": "TypeScript",
+    "updatedAt": "2026-10-18T10:08:42Z",
+    "kind": "project"
+  },
+  {
+    "repo": "MemShot",
+    "title": "MemShot",
+    "description": "Raccoglie gli screenshot, ne riconosce il testo e li organizza automaticamente. Ritrova ciò che cerchi con parole, tag e categorie, senza caricare le immagini online.",
+    "category": "Produttività",
+    "platforms": [
+      "Android"
+    ],
+    "features": [
+      "Import automatico",
+      "OCR sul dispositivo",
+      "22 categorie automatiche",
+      "Ricerca e preferiti"
+    ],
+    "icon": "/icons/MemShot.png",
+    "screenshots": [
+      "/screenshots/MemShot-1.png",
+      "/screenshots/MemShot-2.png"
+    ],
+    "version": "1.0.2",
+    "downloads": [
+      {
+        "name": "MemShot-v1.0.2.apk",
+        "label": "Android · APK",
+        "url": "https://github.com/carellice/MemShot/releases/download/v1.0.2/MemShot-v1.0.2.apk",
+        "size": 30862314,
+        "private": false
+      }
+    ],
+    "demo": null,
+    "url": "https://github.com/carellice/MemShot",
+    "isPrivate": false,
+    "language": "Kotlin",
+    "updatedAt": "2026-10-16T15:01:45Z",
+    "kind": "project"
+  },
+  {
+    "repo": "SimPhotos",
+    "title": "SimPhotos",
+    "description": "Una galleria più leggera, senza doppioni: trova le foto uguali o simili e suggerisce lo scatto migliore. L’analisi avviene sul telefono e la scelta finale resta tua.",
+    "category": "Strumenti",
+    "platforms": [
+      "Android"
+    ],
+    "features": [
+      "Foto simili e doppioni",
+      "Scelta dello scatto migliore",
+      "Sensibilità regolabile",
+      "Analisi locale"
+    ],
+    "icon": "/icons/SimPhotos.png",
+    "screenshots": [
+      "/screenshots/SimPhotos-1.png",
+      "/screenshots/SimPhotos-2.png"
+    ],
+    "version": "1.0.2",
+    "downloads": [
+      {
+        "name": "SimPhotos.apk",
+        "label": "Android · APK",
+        "url": "https://github.com/carellice/SimPhotos/releases/download/v1.0.2/SimPhotos.apk",
+        "size": 2569656,
+        "private": false
+      }
+    ],
+    "demo": null,
+    "url": "https://github.com/carellice/SimPhotos",
+    "isPrivate": false,
+    "language": "Kotlin",
+    "updatedAt": "2026-10-16T07:41:02Z",
+    "kind": "project",
+    "installNotes": "Richiede Android 11 o successivo e l’accesso alle foto per eseguire la scansione. L’eliminazione viene confermata attraverso Android."
+  },
+  {
+    "repo": "slideshower",
+    "title": "Slideshower",
+    "description": "Scegli una cartella e lascia scorrere i ricordi. Presentazioni automatiche di foto e video, con transizioni, modalità schermo intero e controlli personalizzabili.",
+    "category": "Media",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Android",
+      "Web"
+    ],
+    "features": [
+      "Foto e video dalla stessa cartella",
+      "Dodici transizioni regolabili",
+      "Ordine casuale e schermo intero"
+    ],
+    "icon": "/icons/slideshower.png",
+    "screenshots": [
+      "/screenshots/slideshower-1.png",
+      "/screenshots/slideshower-2.png"
+    ],
+    "version": "1.1.0",
+    "downloads": [
+      {
+        "name": "Slideshower-android.apk",
+        "label": "Android · APK",
+        "url": "https://github.com/carellice/slideshower/releases/download/v1.1.0/Slideshower-android.apk",
+        "size": 4243629,
+        "private": false
+      },
+      {
+        "name": "Slideshower-mac-arm64.dmg",
+        "label": "macOS · Apple Silicon",
+        "url": "https://github.com/carellice/slideshower/releases/download/v1.1.0/Slideshower-mac-arm64.dmg",
+        "size": 128630790,
+        "private": false
+      },
+      {
+        "name": "Slideshower-mac-x64.dmg",
+        "label": "macOS · Intel",
+        "url": "https://github.com/carellice/slideshower/releases/download/v1.1.0/Slideshower-mac-x64.dmg",
+        "size": 132435832,
+        "private": false
+      },
+      {
+        "name": "Slideshower-windows.zip",
+        "label": "Windows · ZIP",
+        "url": "https://github.com/carellice/slideshower/releases/download/v1.1.0/Slideshower-windows.zip",
+        "size": 153251569,
+        "private": false
+      }
+    ],
+    "demo": "https://carellice.github.io/slideshower/",
+    "url": "https://github.com/carellice/slideshower",
+    "isPrivate": false,
+    "language": "JavaScript",
+    "updatedAt": "2026-10-09T07:23:35Z",
+    "kind": "project",
+    "installNotes": "Scegli il pacchetto adatto al dispositivo: macOS 12 o successivo (Apple Silicon o Intel), Windows 10/11 oppure Android 7 o successivo."
+  },
+  {
+    "repo": "ondalunga",
+    "title": "Onda Lunga",
+    "description": "Siete sulla stessa lunghezza d’onda? Un party game da giocare con un solo telefono, con indizi da interpretare e una lancetta da avvicinare al bersaglio.",
+    "category": "Giochi",
+    "platforms": [
+      "Android"
+    ],
+    "features": [
+      "221 carte in italiano",
+      "Modalità a squadre",
+      "1 contro 1",
+      "Cooperativa"
+    ],
+    "icon": "/icons/ondalunga.svg",
+    "screenshots": [],
+    "version": "1.0.5",
+    "downloads": [
+      {
+        "name": "OndaLunga-1.0.5.apk",
+        "label": "Android · APK",
+        "url": "https://github.com/carellice/ondalunga/releases/download/v1.0.5/OndaLunga-1.0.5.apk",
+        "size": 1665837,
+        "private": false
+      }
+    ],
+    "demo": null,
+    "url": "https://github.com/carellice/ondalunga",
+    "isPrivate": false,
+    "language": "Kotlin",
+    "updatedAt": "2026-10-08T23:54:41Z",
+    "kind": "project"
+  },
+  {
+    "repo": "alexa-home-mcp",
+    "title": "Claude → Alexa",
+    "description": "Controlla la domotica Alexa da Claude, anche dal telefono. Un connettore MCP per inviare comandi agli Echo e consultare i dispositivi di casa.",
+    "category": "Sviluppo",
+    "platforms": [
+      "Windows",
+      "macOS",
+      "Node.js"
+    ],
+    "features": [
+      "Comandi testuali ad Alexa",
+      "Elenco dispositivi domotici",
+      "Stato degli Echo"
+    ],
+    "icon": "/icons/alexa-home-mcp.svg",
+    "screenshots": [],
+    "version": null,
+    "downloads": [],
+    "demo": null,
+    "url": "https://github.com/carellice/alexa-home-mcp",
+    "isPrivate": false,
+    "language": "JavaScript",
+    "updatedAt": "2026-10-08T23:46:02Z",
+    "kind": "project"
+  },
+  {
+    "repo": "sweep",
+    "title": "Sweep",
+    "description": "Fai spazio sul Mac sapendo cosa stai rimuovendo. Esplora cache, file grandi e residui delle app, con spiegazioni e conferma prima della pulizia.",
+    "category": "Strumenti",
+    "platforms": [
+      "macOS"
+    ],
+    "features": [
+      "Pulizia di cache e file temporanei",
+      "Disinstallazione con file associati",
+      "Ricerca dei file grandi"
+    ],
+    "icon": "/icons/sweep.png",
+    "screenshots": [],
+    "version": "1.0.0",
+    "downloads": [
+      {
+        "name": "Sweep-1.0.0.zip",
+        "label": "macOS · ZIP",
+        "url": "https://github.com/carellice/sweep/releases/download/v1.0.0/Sweep-1.0.0.zip",
+        "size": 1947586,
+        "private": false
+      }
+    ],
+    "demo": null,
+    "url": "https://github.com/carellice/sweep",
+    "isPrivate": false,
+    "language": "Swift",
+    "updatedAt": "2026-10-08T10:30:47Z",
+    "kind": "project",
+    "installNotes": "Richiede macOS 14 o successivo. L’app è firmata ad hoc e non notarizzata: consulta le istruzioni di apertura nel README."
+  },
+  {
+    "repo": "pillole-poetiche",
+    "title": "Pillole Poetiche",
+    "description": "Una poesia al giorno, per riscoprire la bellezza delle parole. Sfoglia versi, frammenti e pensieri e ritrova i tuoi autori preferiti.",
+    "category": "Benessere",
+    "platforms": [
+      "Web",
+      "Android"
+    ],
+    "features": [
+      "Pillola casuale del giorno",
+      "Raccolta da esplorare",
+      "Ricerca per autore"
+    ],
+    "icon": "/icons/pillole-poetiche.png",
+    "screenshots": [],
+    "version": null,
+    "downloads": [],
+    "demo": "https://carellice.github.io/pillole-poetiche/",
+    "url": "https://github.com/carellice/pillole-poetiche",
+    "isPrivate": false,
+    "language": "JavaScript",
+    "updatedAt": "2026-10-07T07:58:54Z",
+    "kind": "project"
+  },
+  {
+    "repo": "devdex",
+    "title": "DevDex",
+    "description": "Il Pokédex dello sviluppatore. Studia e ripassa i concetti di programmazione con spiegazioni su tre livelli, quiz e flashcard.",
+    "category": "Sviluppo",
+    "platforms": [
+      "Web"
+    ],
+    "features": [
+      "Spiegazioni su tre livelli",
+      "Quiz e flashcard",
+      "Progressi salvati sul dispositivo"
+    ],
+    "icon": "/icons/devdex.png",
+    "screenshots": [],
+    "version": null,
+    "downloads": [],
+    "demo": "https://carellice.github.io/devdex/",
+    "url": "https://github.com/carellice/devdex",
+    "isPrivate": false,
+    "language": "MDX",
+    "updatedAt": "2026-10-07T07:58:50Z",
+    "kind": "project"
+  },
+  {
+    "repo": "il-sognatore",
+    "title": "Il Sognatore",
+    "description": "Un sogno lungo una vita. Accompagna Flavio alla ricerca della luce di Chiara in un platform 2D in pixel art tra dieci mondi e nuove abilità.",
+    "category": "Giochi",
+    "platforms": [
+      "Android"
+    ],
+    "features": [
+      "Dieci mondi e cinquanta livelli",
+      "Tre modalità di difficoltà",
+      "Controller e opzioni di accessibilità"
+    ],
+    "icon": "/icons/il-sognatore.png",
+    "screenshots": [],
+    "version": "0.1.13",
+    "downloads": [
+      {
+        "name": "il-sognatore-0.1.13.apk",
+        "label": "Android · APK",
+        "url": "https://github.com/carellice/il-sognatore/releases/download/v0.1.13/il-sognatore-0.1.13.apk",
+        "size": 86893120,
+        "private": false
+      }
+    ],
+    "demo": null,
+    "url": "https://github.com/carellice/il-sognatore",
+    "isPrivate": false,
+    "language": "GDScript",
+    "updatedAt": "2026-10-14T13:03:42Z",
+    "kind": "project"
+  },
+  {
+    "repo": "centro-ascolto-pacchi",
+    "title": "Centro d’Ascolto SS Redentore",
+    "description": "PWA per organizzare le persone assistite e la distribuzione dei pacchi alimentari del centro d’ascolto.",
+    "category": "Produttività",
+    "platforms": [
+      "Web",
+      "PWA"
+    ],
+    "features": [
+      "Gestione persone assistite",
+      "Gestione pacchi alimentari",
+      "Accesso volontari",
+      "Firebase e Firestore"
+    ],
+    "icon": "/icons/centro-ascolto-pacchi.png",
+    "screenshots": [],
+    "version": "1.0.0",
+    "downloads": [],
+    "demo": null,
+    "url": "https://github.com/carellice/centro-ascolto-pacchi",
+    "isPrivate": true,
+    "language": "JavaScript",
+    "updatedAt": "2026-09-28T17:17:42Z",
+    "kind": "project"
+  },
+  {
+    "repo": "sito-tegliare",
+    "title": "Teglia Rè · Il sito",
+    "description": "Sito vetrina per il forno e la pizzeria Teglia Rè, con menu sfogliabile, galleria fotografica, orari stagionali e accesso ai canali di ordine.",
+    "category": "Web",
+    "platforms": [
+      "Web"
+    ],
+    "features": [
+      "Menu con zoom e touch",
+      "Galleria fotografica",
+      "Stato di apertura",
+      "Orari stagionali",
+      "Canali di ordine diretto"
+    ],
+    "icon": "/icons/sito-tegliare.png",
+    "screenshots": [],
+    "version": "0.1.0",
+    "downloads": [],
+    "demo": "https://tegliare.it/",
+    "url": "https://github.com/carellice/sito-tegliare",
+    "isPrivate": true,
+    "language": "JavaScript",
+    "updatedAt": "2026-09-19T14:16:26Z",
+    "kind": "project"
+  },
+  {
+    "repo": "popina-app-fe",
+    "title": "Popina · App ristorante",
+    "description": "PWA per consultare menu, disponibilità dei tavoli e annunci di un ristorante. Il gestore aggiorna i contenuti e invia notifiche dal pannello dedicato.",
+    "category": "Produttività",
+    "platforms": [
+      "Web",
+      "PWA"
+    ],
+    "features": [
+      "Menu testuali e PDF sfogliabili",
+      "Disponibilità tavoli in tempo reale",
+      "Annunci e notifiche push",
+      "Pannello gestione",
+      "Tema personalizzabile"
+    ],
+    "icon": "/icons/popina-app-fe.png",
+    "screenshots": [],
+    "version": null,
+    "downloads": [],
+    "demo": null,
+    "url": "https://github.com/carellice/popina-app-fe",
+    "isPrivate": true,
+    "language": "JavaScript",
+    "updatedAt": "2026-07-30T18:44:10Z",
+    "kind": "project"
+  },
+  {
+    "repo": "sito-popina-redesign",
+    "title": "Popina · Il sito",
+    "description": "Redesign del sito della trattoria Popina, con presentazione della cucina, menu, galleria, orari, contatti e collegamenti per prenotare.",
+    "category": "Web",
+    "platforms": [
+      "Web"
+    ],
+    "features": [
+      "Menu online",
+      "Galleria piatti",
+      "Orari e contatti",
+      "Collegamento prenotazioni",
+      "Contenuti pubblici sincronizzati"
+    ],
+    "icon": "/icons/sito-popina-redesign.png",
+    "screenshots": [],
+    "version": "0.1.0",
+    "downloads": [],
+    "demo": null,
+    "url": "https://github.com/carellice/sito-popina-redesign",
+    "isPrivate": true,
+    "language": "JavaScript",
+    "updatedAt": "2026-08-13T19:13:26Z",
+    "kind": "project"
+  },
+  {
+    "repo": "easy-theater",
+    "title": "Easy Theater",
+    "description": "Gestionale di biglietteria teatrale con mappa dei posti, prenotazioni per data, biglietti PDF e verifica degli ingressi tramite QR code.",
+    "category": "Produttività",
+    "platforms": [
+      "Web",
+      "PWA"
+    ],
+    "features": [
+      "Mappa interattiva posti",
+      "Spettacoli e date",
+      "Biglietti PDF",
+      "Scansione QR",
+      "Gestione attori",
+      "Sincronizzazione Firestore"
+    ],
+    "icon": "/icons/easy-theater.png",
+    "screenshots": [],
+    "version": null,
+    "downloads": [],
+    "demo": null,
+    "url": "https://github.com/carellice/easy-theater",
+    "isPrivate": true,
+    "language": "JavaScript",
+    "updatedAt": "2026-03-23T10:24:14Z",
+    "kind": "project"
+  },
+  {
+    "repo": "java-strings-matcher",
+    "title": "StringsMatcher",
+    "description": "Una libreria Java per confrontare stringhe e ragioni sociali. Combina quattro algoritmi di similarità per deduplicazione e matching fuzzy.",
+    "category": "Sviluppo",
+    "platforms": [
+      "Java"
+    ],
+    "features": [
+      "Normalizzazione delle stringhe",
+      "Quattro algoritmi di similarità",
+      "Soglie di confronto configurabili"
+    ],
+    "icon": null,
+    "screenshots": [],
+    "version": null,
+    "downloads": [],
+    "demo": null,
+    "url": "https://github.com/carellice/java-strings-matcher",
+    "isPrivate": false,
+    "language": "Java",
+    "updatedAt": "2025-05-27T10:56:52Z",
+    "kind": "support"
+  },
+  {
+    "repo": "npm-react-native-barcode-generator",
+    "title": "React Native Barcode Generator",
+    "description": "Un componente React Native per generare codici a barre, basato su JsBarcode e compatibile con Expo.",
+    "category": "Sviluppo",
+    "platforms": [
+      "React Native",
+      "npm"
+    ],
+    "features": [
+      "Compatibilità Expo",
+      "Formati e opzioni JsBarcode",
+      "Componente Barcode riutilizzabile"
+    ],
+    "icon": null,
+    "screenshots": [],
+    "version": null,
+    "downloads": [],
+    "demo": null,
+    "url": "https://github.com/carellice/npm-react-native-barcode-generator",
+    "isPrivate": true,
+    "language": "Java",
+    "updatedAt": "2023-01-05T20:46:35Z",
+    "kind": "support"
+  }
+]
