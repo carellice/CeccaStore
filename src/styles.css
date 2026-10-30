@@ -93,6 +93,12 @@ svg {
   flex-direction: column;
   z-index: 20;
 }
+.sidebar-content {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  scrollbar-width: thin;
+}
 .brand {
   display: inline-flex;
   align-items: center;
@@ -139,6 +145,7 @@ svg {
   top: 14px;
 }
 .brand-link {
+  display: block;
   padding: 0 7px;
   margin-bottom: 47px;
 }
@@ -242,6 +249,7 @@ svg {
   margin-top: 8px;
 }
 .sidebar-bottom {
+  flex-shrink: 0;
   margin-top: auto;
   padding: 18px 0 0;
 }

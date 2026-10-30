@@ -32,11 +32,13 @@ test("Pages subpath works for local images while preserving encrypted and extern
 
 test("catalog images all exist and protected metadata stays outside the visible catalog", async () => {
   const catalog = await readJson("src/data/catalog.json");
+  const linkedProjects = await readJson("src/data/linked-projects.json");
+  const allProjects = [...catalog, ...linkedProjects];
   const policy = await readJson("src/data/catalog-policy.json");
-  assert.equal(new Set(catalog.map((app) => app.repo)).size, catalog.length);
+  assert.equal(new Set(allProjects.map((app) => app.repo)).size, allProjects.length);
   assert.deepEqual(selectCatalogRepos(catalog, policy), catalog);
   assert(!catalog.some((app) => policy.protectedRepos.includes(app.repo)));
-  for (const app of catalog) {
+  for (const app of allProjects) {
     for (const file of [app.icon, ...app.screenshots].filter(Boolean)) {
       await access(new URL(`public${file}`, root));
     }

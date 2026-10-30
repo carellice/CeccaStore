@@ -6,7 +6,7 @@ La raccolta di app, giochi e progetti di **Flavio Ceccarelli**: un’interfaccia
 
 ## Cosa trovi
 
-- **43 progetti visibili**, con loghi originali, descrizioni, piattaforme e screenshot disponibili.
+- **44 schede visibili**, tra progetti e la raccolta personale di Gist su GitHub, con descrizioni, piattaforme e screenshot disponibili.
 - **26 progetti scaricabili**, con 40 pacchetti delle release GitHub verificate al 29 ottobre 2026.
 - Ricerca, categorie, filtri per piattaforma, vista griglia/elenco, caricamento automatico scorrendo la lista e preferiti salvati sul dispositivo.
 - Tema chiaro/scuro, navigazione responsive, animazioni e rispetto delle preferenze di movimento ridotto.
@@ -43,6 +43,8 @@ La pubblicazione usa i permessi temporanei di GitHub Actions per Pages. Non rich
 ## Aggiornare la raccolta
 
 Le schede curate sono in [`src/data/catalog.json`](src/data/catalog.json); immagini e screenshot sono in `public/`. Lo script di sincronizzazione conserva descrizioni, categorie, funzionalità, immagini e note curate, aggiornando visibilità, linguaggi, date, versioni e download. I nuovi repository ammessi ricevono `needsCuration: true` e vanno completati prima della pubblicazione.
+
+I collegamenti a raccolte esterne, come i Gist, sono in [`src/data/linked-projects.json`](src/data/linked-projects.json) e restano disponibili anche dopo la sincronizzazione dei repository.
 
 La sincronizzazione è un’operazione **locale del proprietario**. Installa [GitHub CLI](https://cli.github.com/), accedi come `carellice` con i permessi necessari e poi esegui:
 

@@ -40,6 +40,7 @@ import {
   X,
 } from "lucide-react";
 import catalog from "./data/catalog.json";
+import linkedProjects from "./data/linked-projects.json";
 import catalogPolicy from "./data/catalog-policy.json";
 import PrivateAccess from "./PrivateAccess";
 import { assetUrl } from "./asset-url";
@@ -77,12 +78,12 @@ const featuredOrder = [
   "MemShot",
   "easy-crypt",
 ];
-const baseApps = catalog.map((app, i) => ({
+const baseApps = [...catalog, ...linkedProjects].map((app, i) => ({
   ...app,
   palette: palettes[i % palettes.length],
 }));
 const allowedFavoriteRepos = new Set([
-  ...catalog.map((app) => app.repo),
+  ...baseApps.map((app) => app.repo),
   ...catalogPolicy.protectedRepos,
 ]);
 const categories = [
@@ -520,17 +521,19 @@ function Details({ app, onClose, favorite, onFavorite, onToast, toast }) {
               <span>REALIZZATO CON</span>
               <strong>{app.language || "Risorse digitali"}</strong>
             </div>
-            <div>
-              <span>{app.version ? "VERSIONE" : "ULTIMO AGGIORNAMENTO"}</span>
-              <strong>
-                {app.version ||
-                  new Intl.DateTimeFormat("it-IT", {
-                    day: "numeric",
-                    month: "short",
-                    year: "numeric",
-                  }).format(new Date(app.updatedAt))}
-              </strong>
-            </div>
+            {(app.updatedAt || app.version) && (
+              <div>
+                <span>{app.version ? "VERSIONE" : "ULTIMO AGGIORNAMENTO"}</span>
+                <strong>
+                  {app.version ||
+                    new Intl.DateTimeFormat("it-IT", {
+                      day: "numeric",
+                      month: "short",
+                      year: "numeric",
+                    }).format(new Date(app.updatedAt))}
+                </strong>
+              </div>
+            )}
           </div>
           {app.features?.length > 0 && (
             <div className="detail-section">
@@ -601,9 +604,11 @@ function Details({ app, onClose, favorite, onFavorite, onToast, toast }) {
               </div>
             ) : (
               <p className="no-download">
-                {app.isPrivate
-                  ? "Questo progetto è privato e non ha un download pubblico. Puoi consultarne il repository con un account autorizzato."
-                  : "Questo progetto non ha un pacchetto da installare. Scopri il codice e le istruzioni su GitHub."}
+                {app.kind === "link"
+                  ? "Esplora la raccolta di Gist su GitHub."
+                  : app.isPrivate
+                    ? "Questo progetto è privato e non ha un download pubblico. Puoi consultarne il repository con un account autorizzato."
+                    : "Questo progetto non ha un pacchetto da installare. Scopri il codice e le istruzioni su GitHub."}
               </p>
             )}
             {app.installNotes && (
@@ -619,7 +624,11 @@ function Details({ app, onClose, favorite, onFavorite, onToast, toast }) {
               )}
               <a href={app.url} target="_blank" rel="noreferrer">
                 <Github size={16} />
-                {app.isPrivate ? "Repository privato" : "Codice su GitHub"}
+                {app.kind === "link"
+                  ? "Apri i Gist"
+                  : app.isPrivate
+                    ? "Repository privato"
+                    : "Codice su GitHub"}
                 <ArrowUpRight size={14} />
               </a>
               <button
@@ -645,10 +654,12 @@ function Details({ app, onClose, favorite, onFavorite, onToast, toast }) {
               {toast}
             </div>
           )}
-          <div className="detail-source">
-            <span className="status-dot" />
-            Informazioni verificate su GitHub · 29 ottobre 2026
-          </div>
+          {app.kind !== "link" && (
+            <div className="detail-source">
+              <span className="status-dot" />
+              Informazioni verificate su GitHub · 29 ottobre 2026
+            </div>
+          )}
         </div>
       </div>
     </dialog>
@@ -819,7 +830,7 @@ export default function App() {
       sort === "name"
         ? a.title.localeCompare(b.title, "it")
         : sort === "updated"
-          ? new Date(b.updatedAt) - new Date(a.updatedAt)
+          ? new Date(b.updatedAt || 0) - new Date(a.updatedAt || 0)
           : (featuredOrder.indexOf(a.repo) < 0
               ? 999
               : featuredOrder.indexOf(a.repo)) -
@@ -869,76 +880,78 @@ export default function App() {
   return (
     <div className="app-shell">
       <aside className="sidebar">
-        <a
-          href="#"
-          className="brand-link"
-          onClick={(e) => {
-            e.preventDefault();
-            navigate("discover");
-          }}
-          aria-label="CeccaStore, pagina iniziale"
-        >
-          <Brand />
-        </a>
-        <div className="sidebar-label">IL TUO PROSSIMO CLICK</div>
-        <nav className="main-nav" aria-label="Navigazione principale">
-          {[
-            { id: "discover", label: "Scopri", icon: Compass },
-            { id: "all", label: "Tutti i progetti", icon: Grid2X2 },
-            { id: "downloads", label: "Da scaricare", icon: ArrowDownToLine },
-            { id: "favorites", label: "Preferiti", icon: Bookmark },
-          ].map((n) => (
-            <button
-              key={n.id}
-              aria-current={
-                view === n.id && platform === "Tutte" ? "page" : undefined
-              }
-              className={view === n.id && platform === "Tutte" ? "active" : ""}
-              onClick={() => navigate(n.id)}
-            >
-              <n.icon size={18} />
-              <span>{n.label}</span>
-              {n.id === "favorites" && visibleFavoriteCount > 0 && (
-                <span className="nav-count">{visibleFavoriteCount}</span>
-              )}
-              {n.id === "all" && (
-                <span className="nav-count">{allApps.length}</span>
-              )}
-            </button>
-          ))}
-        </nav>
-        <div className="sidebar-divider" />
-        <div className="sidebar-label">UN MONDO DA ESPLORARE</div>
-        <nav className="platform-nav" aria-label="Piattaforme">
-          {[
-            { label: "Android", icon: Smartphone },
-            { label: "Windows", icon: Monitor },
-            { label: "macOS", icon: Command },
-            { label: "Web", icon: Globe },
-          ].map((p) => (
-            <button
-              key={p.label}
-              className={platform === p.label ? "active" : ""}
-              onClick={() => navigate("all", p.label)}
-            >
-              <p.icon size={17} />
-              {p.label}
-              <ChevronRight size={13} />
-            </button>
-          ))}
-        </nav>
-        <div className="sidebar-note">
-          <div className="note-sparkle">✳</div>
-          <span>
-            Una buona idea
-            <br />
-            merita di essere aperta.
-          </span>
-          <p>
-            Progetti indipendenti,
-            <br />
-            curiosità senza limiti.
-          </p>
+        <div className="sidebar-content">
+          <a
+            href="#"
+            className="brand-link"
+            onClick={(e) => {
+              e.preventDefault();
+              navigate("discover");
+            }}
+            aria-label="CeccaStore, pagina iniziale"
+          >
+            <Brand />
+          </a>
+          <div className="sidebar-label">IL TUO PROSSIMO CLICK</div>
+          <nav className="main-nav" aria-label="Navigazione principale">
+            {[
+              { id: "discover", label: "Scopri", icon: Compass },
+              { id: "all", label: "Tutti i progetti", icon: Grid2X2 },
+              { id: "downloads", label: "Da scaricare", icon: ArrowDownToLine },
+              { id: "favorites", label: "Preferiti", icon: Bookmark },
+            ].map((n) => (
+              <button
+                key={n.id}
+                aria-current={
+                  view === n.id && platform === "Tutte" ? "page" : undefined
+                }
+                className={view === n.id && platform === "Tutte" ? "active" : ""}
+                onClick={() => navigate(n.id)}
+              >
+                <n.icon size={18} />
+                <span>{n.label}</span>
+                {n.id === "favorites" && visibleFavoriteCount > 0 && (
+                  <span className="nav-count">{visibleFavoriteCount}</span>
+                )}
+                {n.id === "all" && (
+                  <span className="nav-count">{allApps.length}</span>
+                )}
+              </button>
+            ))}
+          </nav>
+          <div className="sidebar-divider" />
+          <div className="sidebar-label">UN MONDO DA ESPLORARE</div>
+          <nav className="platform-nav" aria-label="Piattaforme">
+            {[
+              { label: "Android", icon: Smartphone },
+              { label: "Windows", icon: Monitor },
+              { label: "macOS", icon: Command },
+              { label: "Web", icon: Globe },
+            ].map((p) => (
+              <button
+                key={p.label}
+                className={platform === p.label ? "active" : ""}
+                onClick={() => navigate("all", p.label)}
+              >
+                <p.icon size={17} />
+                {p.label}
+                <ChevronRight size={13} />
+              </button>
+            ))}
+          </nav>
+          <div className="sidebar-note">
+            <div className="note-sparkle">✳</div>
+            <span>
+              Una buona idea
+              <br />
+              merita di essere aperta.
+            </span>
+            <p>
+              Progetti indipendenti,
+              <br />
+              curiosità senza limiti.
+            </p>
+          </div>
         </div>
         <div className="sidebar-bottom">
           <a

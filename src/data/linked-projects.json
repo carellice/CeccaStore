@@ -1,0 +1,20 @@
+[
+  {
+    "repo": "github-gists",
+    "title": "Gist di Flavio",
+    "description": "La mia raccolta di Gist su GitHub: codice e risorse da esplorare, condividere e riutilizzare.",
+    "category": "Sviluppo",
+    "platforms": ["Web"],
+    "features": ["Raccolta su GitHub Gist", "Codice da consultare e condividere"],
+    "icon": null,
+    "screenshots": [],
+    "version": null,
+    "downloads": [],
+    "demo": null,
+    "url": "https://gist.github.com/carellice",
+    "isPrivate": false,
+    "language": null,
+    "updatedAt": null,
+    "kind": "link"
+  }
+]
