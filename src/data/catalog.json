@@ -48,7 +48,10 @@
       "Salvataggio locale e backup cifrati"
     ],
     "icon": "/icons/aiming.svg",
-    "screenshots": [],
+    "screenshots": [
+      "/screenshots/aiming-readme-home.png",
+      "/screenshots/aiming-readme-lavagna.png"
+    ],
     "version": null,
     "downloads": [],
     "demo": "https://carellice.github.io/aiming/",
@@ -127,7 +130,8 @@
     "icon": "/icons/IPTVISION.png",
     "screenshots": [
       "/screenshots/IPTVISION-1.png",
-      "/screenshots/IPTVISION-2.png"
+      "/screenshots/IPTVISION-2.png",
+      "/screenshots/IPTVISION-readme-ricerca.png"
     ],
     "version": "1.8.2",
     "downloads": [
@@ -210,7 +214,10 @@
     "icon": "/icons/brieffo.png",
     "screenshots": [
       "/screenshots/brieffo-1.png",
-      "/screenshots/brieffo-2.png"
+      "/screenshots/brieffo-2.png",
+      "/screenshots/brieffo-readme-benvenuto.png",
+      "/screenshots/brieffo-readme-squadra.png",
+      "/screenshots/brieffo-readme-impostazioni.png"
     ],
     "version": "1.22",
     "downloads": [
@@ -482,7 +489,8 @@
     "icon": "/icons/spariaps-game.png",
     "screenshots": [
       "/screenshots/spariaps-game-1.jpg",
-      "/screenshots/spariaps-game-2.jpg"
+      "/screenshots/spariaps-game-2.jpg",
+      "/screenshots/spariaps-game-readme-farmacia.jpg"
     ],
     "version": "2.0.0",
     "downloads": [
@@ -543,7 +551,10 @@
     "icon": "/icons/Mappinando.png",
     "screenshots": [
       "/screenshots/Mappinando-1.png",
-      "/screenshots/Mappinando-2.png"
+      "/screenshots/Mappinando-2.png",
+      "/screenshots/Mappinando-readme-mappinando-detail-fullscreen.png",
+      "/screenshots/Mappinando-readme-mappinando-onboarding.png",
+      "/screenshots/Mappinando-readme-mappinando-update-ready.png"
     ],
     "version": "1.0.9",
     "downloads": [
@@ -774,7 +785,8 @@
     "icon": "/icons/piccole-gioie-app.png",
     "screenshots": [
       "/screenshots/piccole-gioie-1.png",
-      "/screenshots/piccole-gioie-2.png"
+      "/screenshots/piccole-gioie-2.png",
+      "/screenshots/piccole-gioie-readme-onboarding-3.png"
     ],
     "version": "1.4.0",
     "downloads": [
@@ -1028,7 +1040,9 @@
     "icon": "/icons/MemShot.png",
     "screenshots": [
       "/screenshots/MemShot-1.png",
-      "/screenshots/MemShot-2.png"
+      "/screenshots/MemShot-2.png",
+      "/screenshots/MemShot-readme-dettaglio.png",
+      "/screenshots/MemShot-readme-tiktok.png"
     ],
     "version": "1.0.2",
     "downloads": [
@@ -1064,7 +1078,8 @@
     "icon": "/icons/SimPhotos.png",
     "screenshots": [
       "/screenshots/SimPhotos-1.png",
-      "/screenshots/SimPhotos-2.png"
+      "/screenshots/SimPhotos-2.png",
+      "/screenshots/SimPhotos-readme-detail.png"
     ],
     "version": "1.0.2",
     "downloads": [
@@ -1299,7 +1314,14 @@
       "Controller e opzioni di accessibilità"
     ],
     "icon": "/icons/il-sognatore.png",
-    "screenshots": [],
+    "screenshots": [
+      "/screenshots/il-sognatore-readme-title.png",
+      "/screenshots/il-sognatore-readme-w1.png",
+      "/screenshots/il-sognatore-readme-w4.png",
+      "/screenshots/il-sognatore-readme-w3.png",
+      "/screenshots/il-sognatore-readme-w7.png",
+      "/screenshots/il-sognatore-readme-boss.png"
+    ],
     "version": "0.1.13",
     "downloads": [
       {
