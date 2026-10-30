@@ -10,6 +10,8 @@ I file in `public/icons/` e `public/screenshots/` provengono dai progetti presen
 
 Loghi, nomi, marchi, icone, screenshot e altri materiali dei progetti catalogati mantengono i rispettivi diritti e le eventuali licenze del progetto di provenienza. La licenza MIT del codice dell’interfaccia non concede automaticamente una nuova licenza su questi materiali, né diritti sui marchi. Lo stesso vale per l’immagine incorporata nel pacchetto cifrato e per l’identità visiva CeccaStore.
 
+L’icona `public/icons/timer-spegnimento.png` proviene da `assets/logo.png` del progetto [Timer spegnimento](https://github.com/carellice/timer-spegnimento). Come indicato nel suo README, è un’icona di Windows estratta da `shell32.dll`.
+
 Il catalogo contiene metadati descrittivi e collegamenti curati per il portfolio. La loro presenza non concede una licenza sul codice sorgente, sui dati o sulle risorse dei progetti descritti. Per riusare un materiale, consulta il repository e le indicazioni del relativo titolare.
 
 ## Progetti e download esterni

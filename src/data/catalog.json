@@ -1,5 +1,39 @@
 [
   {
+    "repo": "timer-spegnimento",
+    "title": "Timer spegnimento",
+    "description": "Scegli quando spegnere il PC, tra un certo numero di minuti o a un’ora precisa. Puoi anche programmare la chiusura dei programmi e controllare il tempo rimanente dall’area di notifica.",
+    "category": "Strumenti",
+    "platforms": [
+      "Windows"
+    ],
+    "features": [
+      "Spegnimento a orario o dopo un intervallo",
+      "Chiusura dei programmi con anticipo regolabile",
+      "Timer indipendente per la chiusura dei programmi",
+      "Annullamento timer e area di notifica"
+    ],
+    "icon": "/icons/timer-spegnimento.png",
+    "screenshots": [],
+    "version": "1.0.0",
+    "downloads": [
+      {
+        "name": "TimerSpegnimento.exe",
+        "label": "Windows · applicazione",
+        "url": "https://github.com/carellice/timer-spegnimento/releases/download/v1.0.0/TimerSpegnimento.exe",
+        "size": 16384,
+        "private": false
+      }
+    ],
+    "demo": null,
+    "url": "https://github.com/carellice/timer-spegnimento",
+    "isPrivate": false,
+    "language": "C#",
+    "updatedAt": "2026-10-30T11:35:08Z",
+    "kind": "project",
+    "installNotes": "Avvia l’eseguibile senza installazione; richiede .NET Framework 4.x. Salva il lavoro prima di programmare lo spegnimento: Windows può forzare la chiusura delle app. Lo spegnimento resta programmato anche uscendo dall’app; la chiusura dei programmi richiede invece che resti in esecuzione."
+  },
+  {
     "repo": "aiming",
     "title": "Aiming",
     "description": "Dai spazio alle idee su lavagne infinite, con post-it, testi, checklist, immagini e link. Organizza e collega i contenuti, salvati nel browser, ed esporta backup cifrati.",
