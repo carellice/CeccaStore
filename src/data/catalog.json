@@ -1,5 +1,30 @@
 [
   {
+    "repo": "aiming",
+    "title": "Aiming",
+    "description": "Dai spazio alle idee su lavagne infinite, con post-it, testi, checklist, immagini e link. Organizza e collega i contenuti, salvati nel browser, ed esporta backup cifrati.",
+    "category": "Produttività",
+    "platforms": [
+      "Web"
+    ],
+    "features": [
+      "Lavagne infinite con zoom e minimappa",
+      "Post-it, testi, checklist, immagini e link",
+      "Collegamenti tra le card e ricerca",
+      "Salvataggio locale e backup cifrati"
+    ],
+    "icon": "/icons/aiming.svg",
+    "screenshots": [],
+    "version": null,
+    "downloads": [],
+    "demo": "https://carellice.github.io/aiming/",
+    "url": "https://github.com/carellice/aiming",
+    "isPrivate": false,
+    "language": "JavaScript",
+    "updatedAt": "2026-10-30T11:17:08Z",
+    "kind": "project"
+  },
+  {
     "repo": "mercenaries-mod-manager",
     "title": "Mercenaries Mod Manager",
     "description": "Gestore di mod e strumenti per una copia privata di Mercenaries Recompiled. Seleziona le modifiche e avvia il gioco da un unico pannello.",
