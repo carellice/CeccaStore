@@ -958,15 +958,26 @@ export default function App() {
             <ArrowUpRight size={15} />
           </a>
           <div className="sidebar-footer">
-            <a
-              href="https://github.com/carellice"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Github size={15} />
-              <span>GitHub</span>
-              <ArrowUpRight size={12} />
-            </a>
+            <div className="sidebar-links">
+              <a
+                href="https://github.com/carellice"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Github size={15} />
+                <span>GitHub</span>
+                <ArrowUpRight size={12} />
+              </a>
+              <a
+                href="https://gist.github.com/carellice"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Code2 size={15} />
+                <span>Gist</span>
+                <ArrowUpRight size={12} />
+              </a>
+            </div>
             <button
               aria-label={`Attiva tema ${theme === "light" ? "scuro" : "chiaro"}`}
               onClick={() => setTheme(theme === "light" ? "dark" : "light")}
@@ -1322,14 +1333,24 @@ export default function App() {
           <footer className="page-footer">
             <Brand />
             <span>Creato con curiosità, da Flavio Ceccarelli.</span>
-            <a
-              href="https://github.com/carellice"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Dalle idee al codice
-              <ArrowUpRight size={13} />
-            </a>
+            <div className="page-footer-links">
+              <a
+                href="https://github.com/carellice"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Dalle idee al codice
+                <ArrowUpRight size={13} />
+              </a>
+              <a
+                href="https://gist.github.com/carellice"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Gist
+                <ArrowUpRight size={13} />
+              </a>
+            </div>
           </footer>
         </main>
       </div>

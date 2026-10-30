@@ -307,9 +307,15 @@ svg {
   font-size: 10px;
   color: #89917f;
 }
+.sidebar-links {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
 .sidebar-footer button {
   color: #89917f;
   padding: 0;
+  align-self: center;
 }
 .main-area {
   margin-left: 224px;
@@ -1508,8 +1514,13 @@ main {
 .page-footer > span {
   font-size: 8px;
 }
-.page-footer > a {
+.page-footer-links {
   margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+.page-footer-links > a {
   display: flex;
   gap: 6px;
   align-items: center;
@@ -2320,7 +2331,7 @@ main {
   .page-footer > span {
     font-size: 6px;
   }
-  .page-footer > a {
+  .page-footer-links > a {
     font-size: 6px;
   }
   .filter-panel {
@@ -2696,7 +2707,7 @@ main {
     flex-basis: 100%;
     font-size: 7px;
   }
-  .page-footer > a {
+  .page-footer-links > a {
     font-size: 7px;
   }
   .page-footer .brand {
@@ -3022,7 +3033,7 @@ main {
   font-size: 11px;
 }
 .page-footer > span,
-.page-footer > a {
+.page-footer-links > a {
   font-size: 10px;
   color: #7b8a6e;
 }
@@ -3182,7 +3193,7 @@ main {
 [data-theme="dark"] .category-tabs > button,
 [data-theme="dark"] .maker-strip p,
 [data-theme="dark"] .page-footer > span,
-[data-theme="dark"] .page-footer > a,
+[data-theme="dark"] .page-footer-links > a,
 [data-theme="dark"] .detail-description,
 [data-theme="dark"] .detail-meta span,
 [data-theme="dark"] .feature-list li,
@@ -3297,7 +3308,7 @@ main {
     font-size: 7px;
   }
   .page-footer > span,
-  .page-footer > a {
+  .page-footer-links > a {
     font-size: 8px;
   }
 }
@@ -3436,7 +3447,7 @@ main {
     font-size: 0;
   }
   .page-footer > span,
-  .page-footer > a {
+  .page-footer-links > a {
     font-size: 9px;
   }
   .load-more button {
