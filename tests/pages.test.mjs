@@ -3,11 +3,28 @@ import assert from "node:assert/strict";
 import { readFile, access } from "node:fs/promises";
 import { createHash } from "node:crypto";
 import { assetUrl } from "../src/asset-url.js";
-import { selectCatalogRepos } from "../scripts/sync-catalog.mjs";
+import { selectCatalogRepos, isDownloadAsset, normalizeDownload } from "../scripts/sync-catalog.mjs";
 
 const root = new URL("../", import.meta.url);
 const readJson = async (file) =>
   JSON.parse(await readFile(new URL(file, root), "utf8"));
+
+test("Claude skill releases stay downloadable after catalog synchronization", () => {
+  const asset = {
+    name: "app-to-pwa-casaos.skill",
+    browser_download_url: "https://github.com/carellice/app-to-pwa-casaos/releases/download/v1.1.0/app-to-pwa-casaos.skill",
+    size: 77669,
+  };
+  assert(isDownloadAsset(asset));
+  assert(!isDownloadAsset({ name: "app-to-pwa-casaos.skill.sha256" }));
+  assert.deepEqual(normalizeDownload(asset, { repo: "app-to-pwa-casaos", platforms: ["Claude Code"], isPrivate: false }), {
+    name: asset.name,
+    label: "Claude · skill",
+    url: asset.browser_download_url,
+    size: asset.size,
+    private: false,
+  });
+});
 
 test("Pages subpath works for local images while preserving encrypted and external assets", () => {
   assert.equal(

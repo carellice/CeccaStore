@@ -6,8 +6,8 @@ La raccolta di app, giochi e progetti di **Flavio Ceccarelli**: un’interfaccia
 
 ## Cosa trovi
 
-- **46 schede visibili**, tra progetti e la raccolta personale di Gist su GitHub, con descrizioni, piattaforme e screenshot disponibili.
-- **27 progetti scaricabili**, con 41 pacchetti dalle release ufficiali GitHub.
+- **47 schede visibili**, tra progetti, skill per Claude e la raccolta personale di Gist su GitHub, con descrizioni, piattaforme e screenshot disponibili.
+- **28 progetti scaricabili**, con 42 pacchetti dalle release ufficiali GitHub.
 - Ricerca, categorie, filtri per piattaforma, vista griglia/elenco, caricamento automatico scorrendo la lista e preferiti salvati sul dispositivo.
 - Tema chiaro/scuro, navigazione responsive, animazioni e rispetto delle preferenze di movimento ridotto.
 - Un’area con PIN per un ulteriore progetto, conservato in un pacchetto cifrato separato.

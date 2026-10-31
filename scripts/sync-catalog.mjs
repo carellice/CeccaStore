@@ -78,7 +78,7 @@ export function websiteUrl(value) {
 export function isDownloadAsset(asset) {
   return (
     !!asset?.name &&
-    /\.(apk|exe|msi|msix|msixbundle|dmg|pkg|zip|7z|appimage|deb|rpm|ipk|wgt|jar|tar\.gz|tar\.xz)$/i.test(
+    /\.(apk|exe|msi|msix|msixbundle|dmg|pkg|zip|7z|appimage|deb|rpm|ipk|wgt|jar|skill|tar\.gz|tar\.xz)$/i.test(
       asset.name,
     ) &&
     !/(?:^|[-_.])(source|sources|src|symbols|checksums?)(?:[-_.]|$)/i.test(
@@ -89,6 +89,7 @@ export function isDownloadAsset(asset) {
 
 export function downloadLabel(name, platforms = [], repo = "") {
   const lower = name.toLowerCase();
+  if (/\.skill$/.test(lower)) return "Claude · skill";
   const arch = /applesilicon|apple-silicon|mac-arm64/.test(lower)
     ? "Apple Silicon"
     : /mac-intel|mac-x64/.test(lower)

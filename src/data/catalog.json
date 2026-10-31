@@ -1,5 +1,42 @@
 [
   {
+    "repo": "app-to-pwa-casaos",
+    "title": "App to PWA · CasaOS",
+    "description": "Una skill per Claude che guida la conversione di app native in PWA, mantenendone interfaccia e funzionalità. Include backend, installazione su CasaOS e aggiornamenti automatici.",
+    "category": "Sviluppo",
+    "platforms": [
+      "Claude Code",
+      "Claude.ai",
+      "Claude desktop"
+    ],
+    "features": [
+      "Conversione di app native in PWA",
+      "Interfaccia fedele all’app originale",
+      "Backend con account, SQLite e notifiche push",
+      "Installazione su CasaOS e Docker",
+      "Aggiornamenti notturni con backup e rollback"
+    ],
+    "icon": null,
+    "screenshots": [],
+    "version": "1.1.0",
+    "downloads": [
+      {
+        "name": "app-to-pwa-casaos.skill",
+        "label": "Claude · skill",
+        "url": "https://github.com/carellice/app-to-pwa-casaos/releases/download/v1.1.0/app-to-pwa-casaos.skill",
+        "size": 77669,
+        "private": false
+      }
+    ],
+    "demo": null,
+    "url": "https://github.com/carellice/app-to-pwa-casaos",
+    "isPrivate": false,
+    "language": "TypeScript",
+    "updatedAt": "2026-10-31T11:44:34Z",
+    "kind": "project",
+    "installNotes": "Importa il file .skill nelle impostazioni di Claude.ai o Claude desktop, in Capabilities → Skills. Per una conversione completa usa Claude Code in un ambiente con il repository della tua app; le istruzioni di installazione sono nel README."
+  },
+  {
     "repo": "timer-spegnimento",
     "title": "Timer spegnimento",
     "description": "Scegli quando spegnere il PC, tra un certo numero di minuti o a un’ora precisa. Puoi anche programmare la chiusura dei programmi e controllare il tempo rimanente dall’area di notifica.",
